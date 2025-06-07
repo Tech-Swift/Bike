@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const bikeSchema = new mongoose.Schema({
-  title: { type: String, required: true, trim: true },
+  name: { type: String, required: true, trim: true },
   description: { type: String, required: true },
   price: { type: Number, required: true },
   category: {
